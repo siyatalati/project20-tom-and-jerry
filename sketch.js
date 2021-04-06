@@ -41,10 +41,10 @@ function draw() {
       cat.addAnimation(catimg3);
       cat.x=300;
       cat.scale=0.2;
-      cat.changeAnimation("catLastImage");
+      cat.changeAnimation(catimg4);
       mouse.addAnimation(mouseimg3);
       mouse.scale=0.15;
-      mouse.changeAnimation("mouseLastImage");
+      mouse.changeAnimation(mouseimg4);
 
     drawSprites();
 }
