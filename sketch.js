@@ -38,11 +38,11 @@ function draw() {
       if(cat.x-mouse.x<(cat.width-mouse.width)/2);
 
       cat.velocityX=0;
-      cat.addAnimation("catLastImage",catimg3);
+      cat.addAnimation(catimg3);
       cat.x=300;
       cat.scale=0.2;
       cat.changeAnimation("catLastImage");
-      mouse.addAnimation("mouseLastImage",mouseimg3);
+      mouse.addAnimation(mouseimg3);
       mouse.scale=0.15;
       mouse.changeAnimation("mouseLastImage");
 
